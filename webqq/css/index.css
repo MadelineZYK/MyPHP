@@ -1,0 +1,32 @@
+*{margin: 0;padding:0;}
+ul,li{list-style: none;}
+
+body{font-family: "Microsoft Yahei";}
+#friendslist{width: 230px;height: 500px;position: absolute;right: 0;top: 80px;}
+.friendli{height: 60px;padding-left: 20px;padding-top: 20px;position: relative;}
+.friendimage{width: 60px;height: 60px;float: left;border: 3px solid rgba(0,0,0,.2);border-radius: 50%;vertical-align: middle;}
+.offlineimage{filter：gray; -moz-opacity:.6;opacity:0.6; -webkit-filter: grayscale(100%);}
+.cfnn{width: 100px;float: left;font-size: 14px;color: #000;margin-top: 10px;margin-left: 10px;}
+.oname{width: 210px; height: 10px;line-height: 10px;padding: 10px 0 10px 20px;font-size: 18px;color: #454e59;}
+#onlinefriendslist{padding:0 0 30px 0;border-left: 2px solid #afde5c;margin-left: 10px;}
+#offlinefriendslist{padding:0 0 30px 0;border-left: 2px solid #de815c;margin-left: 10px;}
+.red{width: 8px;height: 8px;border-radius: 50%;background-color: red;position: absolute;top: 30px; left: 73px;display: none;}
+
+#chatdiv{width: 700px;height: 550px;top: 80px;left: 200px;border: 1px solid #ccc;position: absolute;border-radius: 15px;display: none;position: relative;}
+.chattitle{height: 20px;line-height: 20px;padding:20px 0 20px 0;text-align: center;font-size: 14px;font-weight: bold;color: #fff;text-shadow:1px 1px 1px #fff;background-color: #454e59;border-top-right-radius: 15px;border-top-left-radius: 15px;}
+.closebtn{width: 20px;height: 20px;position: absolute;top: 12px;left: 660px;font-size: 20px;color: #fff;cursor: pointer;}
+.chatHistory{height: 400px;overflow: auto;margin-bottom: 20px;}
+.selfmsg{text-align: right;height: 80px;padding: 10px;width: 95%;}
+.othermsg{text-align: left;height: 80px;padding: 10px;width: 95%;}
+.userheadimage{width: 40px;height: 40px;float: right;border-radius: 50%;vertical-align: middle;}
+.otherheadimage{width: 40px;height: 40px;float: left;border-radius: 50%;vertical-align: middle;}
+.username{font-size: 14px;height: 14px;line-height: 14px;margin: 0 0 10px;text-align: right;}
+.othername{font-size: 14px;height: 14px;line-height: 14px;margin: 0 10px 10px 0;text-align: left;}
+.word{background-color: #97c94c;border-radius: 5px; height: 20px;line-height: 20px;padding: 10px 15px;display:inline-block;}
+.otherword{background-color: #97c94c;border-radius: 5px; height: 20px;line-height: 20px;padding: 10px 15px;display:inline-block;}
+
+.chatMsg{height: 60px;padding: 5px;}
+.txtMsg{display: block;width: 580px;height: 50px;line-height: 50px;font-size: 14px;color: #666;float: left;}
+.sendbtn{float: right;display: block; width: 80px;height: 20px;line-height: 20px;padding: 10px 0 10px 0;text-align: center;color: #fff;background-color: #454e59;border-radius: 5px;}
+
+#info{display: none;}
